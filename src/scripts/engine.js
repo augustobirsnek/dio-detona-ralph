@@ -7,7 +7,7 @@ const state = {
         life: document.querySelector("#life"),
         gameOver: document.querySelector("#game-over"),
         scoreTotal: document.querySelector("#score-total"),
-        reiniciar: document.querySelector("#reiniciar").addEventListener("onClick", () => location.href = "./index.html")
+        reiniciar: document.querySelector("#reiniciar").addEventListener("click", () => location.href = "./index.html")
     },
     values: {
         gameVelocity: 750,
